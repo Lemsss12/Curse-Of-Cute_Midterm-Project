@@ -4,10 +4,10 @@ import javax.swing.*;
 
 public class GamePanel extends JPanel {
     // map
-    public  int tileSize = 32;
-    public  int gamePanelSizeX = 800;
-    public  int gamePanelSizeY = 600;
-    public int mapX = 13*32;
+    public final int tileSize = 32;
+    public int gamePanelSizeX = 800;
+    public int gamePanelSizeY = 600;
+    public final int mapX = 13*32;
     public int mapY = 13*32;
     @SuppressWarnings("unused")
     private final int scaleMultiplier = 2;
